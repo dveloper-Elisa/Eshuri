@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* styling header section */
+nav {
+  width: 100%;
+  height: 70px;
+  line-height: 75px;
+  padding: 0 100px;
+  position: fixed;
+  background-color: forestgreen;
+}
+nav .logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  float: left;
+  margin-top: 2px;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  text-transform: capitalize;
+}
+nav li a {
+  font-size: 15px;
+  text-transform: capitalize;
+  padding: 0px 18px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+/* Editing body Elements */
+.container {
+  display: flex;
+}
+.container .body-image img {
+  float: left;
+  width: 300px;
+  height: 500px;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  margin-bottom: 5rem;
+}
+.container .pragraph p {
+  width: 350px;
+  margin-top: 250px;
+  position: absolute;
+  left: 400px;
+}
+.container .pragraph h3 {
+  margin-top: 200px;
+  position: absolute;
+  left: 400px;
+}
+/* Editing footer section */
+.footer-section {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(172, 225, 247);
+}
